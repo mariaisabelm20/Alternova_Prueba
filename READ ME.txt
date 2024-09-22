@@ -1,0 +1,22 @@
+CONFIGURAR EL ENVIROMENT EN LA CONSOLA DE WINDOWS
+
+1 Crear una carpeta en donde va estar el "Enviroment" del programa y descargar todos los archivos ahí
+
+2 Abrir la consola de comandos de Windows (Escribir cmd en el buscador y abrir "símbolo de sistema"
+
+3 En la consola Escribir:
+	 1. cd (comando para navegar entre carpetas)
+	 2. Pegar la ruta de la carpeta creada en el paso 1
+
+4 En la consola escribir para crear el "Enviroment": 
+	python -m venv .venv
+
+5 Para activar el "Enviroment" escribir en la consola:
+	.venv/Scripts/activate.bin
+
+6 dentro de la descarga hay un archivo llamado requirements.txt en donde están los packages necesarios para el programa. Para activarlos escribir en la consola:
+	pip install -r requirements.txt
+
+---------------------------------------------------------------------------------------------------
+
+ 

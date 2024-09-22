@@ -1,0 +1,9 @@
+
+{
+    "account" : "pon tu account_sid aquí",
+    "token" : "pon tu auth_token aquí",
+    "from_whatsapp_number" : " whatsapp:+14155238886 (Este es el número de twilio revisa que sea correcto si es asi borra este mensaje)",
+    "to_whatsapp_number" : "pon el número de whatsapp asociado al sandbox aquí"
+
+}
+
