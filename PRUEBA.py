@@ -15,13 +15,13 @@ ethereum_price = float(result["ethereum"]["usd"])
 credenciales = open('credenciales.json') # Abre el json
 data = json.load(credenciales) 
 
-account_sid = data.account
-auth_token = data.token
+account_sid = (data[account])
+auth_token = (data[token])
 client = Client(account_sid, auth_token)
 
 #Numeros de emisor y receptor
-from_whatsapp_number = data.from_whatsapp_number
-to_whatsapp_number = data.to_whatsapp_number
+from_whatsapp_number = (data[from_whatsapp_number])
+to_whatsapp_number = (data[to_whatsapp_number])
 
 
 #Automatización
